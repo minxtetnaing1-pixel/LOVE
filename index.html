@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Someone Special ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 25px;
+    margin: 20px;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #ff4f81;
+    color: white;
+}
+
+#message {
+    display: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<div id="start">
+
+<h1>Hey... ❤️</h1>
+
+<p>I made something special for you 🥰</p>
+
+<p>Are you ready? 👀</p>
+
+<button onclick="showLove()">Open 🎁</button>
+
+</div>
+
+
+<div id="message">
+
+<h1>🎉 Surprise! 🎉</h1>
+
+<p>❤️ You are very special to me ❤️</p>
+
+<p>Thank you for being in my life 🥰</p>
+
+<p>🌹❤️🌹❤️🌹</p>
+
+<h2>I Love You ❤️</h2>
+
+</div>
+
+</div>
+
+
+<script>
+
+function showLove() {
+
+document.getElementById("start").style.display = "none";
+
+document.getElementById("message").style.display = "block";
+
+}
+
+</script>
+
+</body>
+</html>
